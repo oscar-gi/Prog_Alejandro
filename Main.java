@@ -24,7 +24,9 @@ public class Main {
 	case 2: System.out.println("Cuadrado");
 		int l=entrada.nextInt();			Cuadrado cuadrado = new Cuadrado(l);
 		cuadrado.CalcularArea();
+		cuadrado.CalcularPerimetro();
 		System.out.println(cuadrado.area);
+		System.out.println(cuadrado.perimetro);
 		break;
 	case 3: System.out.println("Rectangulo");
      	int b=entrada.nextInt();
